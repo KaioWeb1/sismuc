@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+	<name>AGENCIANET</name>
+	<creationDate></creationDate>
+	<author>KaioWeb</author>
+	<authorEmail>agencianet@agencianet.net</authorEmail>
+	<authorUrl>www.agencianet.net</authorUrl>
+	<copyright>Copyright (C) 2013 AgenciaNet, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>2.5.0</version>
+	<description>TPL_AGENCIANET_XML_DESCRIPTION</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>busca</position>
+		<position>social</position>
+		<position>menu</position>
+		<position>footermenu</position>
+	</positions>
+	<languages folder="language">
+		<language tag="pt-BR">pt-BR/pt-BR.tpl_agencianet.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.tpl_agencianet.sys.ini</language>
+	</languages>
+</extension>

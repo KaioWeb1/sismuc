@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Verdana, Sans-serif;
+}
+.clr{
+	clear: both;
+}
+.topo{
+	 background: -webkit-linear-gradient(#c8edff, #ffffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#c8edff, #ffffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#c8edff, #ffffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#c8edff, #ffffff); /* Standard syntax */ 
+  width: 100%;
+  height: auto;
+}
+
+.topo-centro{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.logo{
+	width: 74%;
+	display: inline-block;
+}
+
+.module_logo .custom_logo img{
+	vertical-align: middle;
+}
+
+.module_logo .custom_logo p{
+	color: #006194;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+}
+.busca{
+	width: 24%;
+	display: inline-block;
+}
+.module_search .search_search form label{
+	display: none;
+}
+.module_search .search_search form .inputbox {
+	padding: 1.5% 5%;
+	vertical-align: middle;
+	border: 2px solid #cdcdcd;
+}
+.module_search .search_search form .button{
+	vertical-align: middle;
+	margin-left: -3%;
+}
+.search_search{
+	text-align: right;
+	margin-right: 70px;
+}
+.module_social{
+	margin-right: 18%;
+}
+.module_social .nsb_container a{ 
+	float: right;
+	margin: 10% 4%;
+}
+
+.menu{
+	background-image: -o-linear-gradient(bottom, #003C86 0%, #006094 50%, #003C86 100%);
+	background-image: -moz-linear-gradient(bottom, #003C86 0%, #006094 50%, #003C86 100%);
+	background-image: -webkit-linear-gradient(bottom, #003C86 0%, #006094 50%, #003C86 100%);
+	background-image: -ms-linear-gradient(bottom, #003C86 0%, #006094 50%, #003C86 100%);
+	background-image: linear-gradient(to bottom, #003C86 0%, #006094 50%, #003C86 100%);
+	width: 100%;
+	height: 45px;
+}
+.menu .menu_centro{
+	width: 90%;
+	margin: 0 auto;
+}
+.menu_centro .menu{
+	list-style: none;
+	text-align: center;
+	width: 100%;
+}
+.menu_centro .menu li{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1% 2%;
+}
+.menu_centro .menu li a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+
+}
+
+
+/*CSS MEDIA QUERIES*/
+@media (max-width: 1400px){
+	.topo-centro{
+		width: 100%;
+	}
+	.search_search{
+		margin-right: 5px;
+		vertical-align:middle;
+	}
+	.menu-centro{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1080px){
+	.module_logo .custom_logo img{
+		width: 20%;
+	}
+	
+}
+
+@media(max-width: 970px){
+	.module_logo .custom_logo p{
+		font-size: 17px;
+	}
+	.search_search{
+		margin-right: 0px;
+		vertical-align:middle;
+	}
+
+}
+@media(max-width: 940px){
+	.busca{
+		vertical-align: middle;
+		margin-top: 10px;
+	}
+	.module_search .search_search form .inputbox{
+		width: 60%;
+	}
+}
+@media(max-width: 812px){
+	
+	.topo-centro div{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	.module_search .search_search form .inputbox{
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+	}
+	.module_social .nsb_container a{
+		margin: 3% 10%;
+		float: none;
+
+	}
+
+}
+
+
+.menu { display: block; position: relative }
+.menu ul  { clear: both; list-style: none; margin: 0; padding: 0; z-index: 1000 }
+.menu ul > li { float: left; position: relative }
+.menu ul > li a { display: block; text-decoration: none; position: relative }
+.menu ul > li ul { display: none; position: absolute; visibility: hidden; vertical-align: middle; padding: 0 }
+.menu ul > li:hover ul { display: block; visibility: visible }
+.menu ul > li li { float: none; margin: 0; position: relative; white-space: nowrap }
+.menu ul > li li a { display: block; text-decoration: none }
+.menu ul > li li ul { left: 100%; top: -1px }
